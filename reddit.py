@@ -1,10 +1,10 @@
 import praw
 reddit = praw.Reddit(
-                    client_id='nJ8qvvY9yhiUyA',
-                    client_secret='fqLEJ35aTqPmVlyX2sV-f0K9IUM',
-                    password='Ali@Saab8989',
-                    user_agent='FieverrApp',
-                    username='aliahmad6095'
+                    client_id='YOUR CLINET ID',
+                    client_secret='YOUR SECRET CODE',
+                    password='YOUR PASSWORD',
+                    user_agent='YOUR USER AGENT',
+                    username='YOUR USERNAME'
                     )
 subreddit = reddit.subreddit('pics')
 reply_text = 'Usman Khalid And Ali Ahmad Bot Reply using API'
